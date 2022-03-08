@@ -1,0 +1,155 @@
+body{
+    position: relative;
+    background-color:black;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    background-color: rgb(71, 67, 67);
+}
+
+main{
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1000px;
+    
+}
+
+#topo_pagina{
+    background-color: rgb(03, 160, 98);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    height: 30px;
+    padding: 20px;
+    font-weight bold; 
+    ;
+}
+
+#cadastro{
+    position: relative;
+}
+
+#background_image{
+    width: 1000px;
+    display: inline-block;
+}
+
+#formulario {
+    font-family: 'Hubballi', cursive;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    background-color: rgba(255,255,255, 0.75);
+    height: 420px;
+    width: 250px;
+    top: 40%;
+    right: 5%;
+    transform: translateY(-50%);
+    border-radius: 4px;
+    margin:0px;
+    padding: 0px;
+    
+}
+
+#p1 {
+    margin:0px;
+    text-align: justify;
+    font-size: 25spx;
+    padding: 15px;
+    font-weight: bold;
+}
+
+#p2{
+    margin: 0px;
+    text-align: justify;
+    font-size: 20px;
+    padding: 15px;
+    padding-top: 0px;
+}
+
+#form_name{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+#form_email{
+    text-align: center;
+    margin-top: 7px;
+    font-size: 20px;      
+}
+
+#name{
+    width: 220px;
+    height: 30px;
+    padding: 0px;
+    border: 0px;
+}
+
+#email{
+    width: 220px;
+    height: 30px;
+    padding: 0px;
+    border: 0px
+}
+
+#inscreva-se{
+    text-align: center;
+    margin-top: 7px;
+    font-size: 20px;     
+}
+
+#botao_inscrever{
+    background-color: rgb(03, 160, 98);
+    width: 220px;
+    height: 30px;
+    border: 0px;
+    padding: 0px;
+}
+
+#div_cidades{
+    text-align: center;
+    margin-top: 7px;
+}
+#cidade{
+    
+    width: 220px;
+    height: 30px;
+    border: 0px;
+    padding: 0px;
+    
+}
+
+#descricao{
+    background-color: rgb(71, 67, 67);
+    width: 1000px;
+    height: 350px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#rosto_palestrante{
+    float: left;
+    margin: 20px;
+    width: 250px;
+}
+
+
+#div_palestrante{
+    text-align: justify;
+    color: white;
+    width: 500px;
+}
+
+#container_palestrante{
+    margin-top: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
